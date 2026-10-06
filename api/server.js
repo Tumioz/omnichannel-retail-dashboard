@@ -31,3 +31,15 @@ if (require.main === module) {
     app.listen(5000, () => console.log('Backend API running on port 5000'));
 }
 module.exports = app;
+
+app.put('/api/products/:id', async (req, res) => {
+    const { price } = req.body;
+    const { id } = req.params;
+    try {
+        await pool.query('UPDATE products SET price = $1 WHERE id = $2', [price, id]);
+        res.json({ message: 'Price updated successfully' });
+    } catch (err) {
+        console.error("Database error:", err);
+        res.status(500).json({ error: err.message });
+    }
+});
