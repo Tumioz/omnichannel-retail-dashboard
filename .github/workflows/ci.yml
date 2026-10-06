@@ -20,3 +20,4 @@ jobs:
         cd api
         npm install
         npm test
+        
