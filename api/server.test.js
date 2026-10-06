@@ -1,0 +1,11 @@
+
+const request = require('supertest');
+const app = require('./server');
+
+describe('API Endpoints', () => {
+    it('should return 200 for the health check', async () => {
+        const res = await request(app).get('/api/health');
+        expect(res.statusCode).toEqual(200);
+        expect(res.body).toHaveProperty('status', 'OK');
+    });
+});
