@@ -1,6 +1,6 @@
 # Omnichannel Retail Dashboard
 
-[![CI/CD Pipeline](https://github.com/YOUR-USERNAME/omnichannel-retail-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-USERNAME/omnichannel-retail-dashboard/actions/workflows/ci.yml)
+[![CI/CD Pipeline](https://github.com/Tumioz/omnichannel-retail-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/Tumoiz/omnichannel-retail-dashboard/actions/workflows/ci.yml)
 [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
